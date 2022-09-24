@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="WhatsApp Image 2022-09-24 at 14.07.04.jpeg" type="imagem">
     <link rel="stylesheet" href="formulario.css">
     <title>Cadastro</title>
 </head>
@@ -16,7 +17,8 @@
 
     <form>
         <fieldset class="grupo">
-            <div>
+
+            <div class="campo">
                 <label for="1nome"><strong>Nome</strong></label>
                 <input type="text" name="nome" id="nome" required>
             </div>
@@ -25,6 +27,7 @@
                 <label for="1sobrenome"><strong> Sobrenome </strong></label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
+
         </fieldset>
         <div class="campo">
             <label for="email"><strong>Email</strong></label>
@@ -59,7 +62,7 @@
         </div>
         <fieldset class="grupo">
 
-            <div class="campo">
+            <div id="check">
                 <label><strong> Selecione o aparelho que você usa para assistir </strong></label>
                 <input type="checkbox" id="aparelho1" name="aparelho1" value="celular">
                 <label for="aparelho1">Celular</label>
@@ -75,10 +78,10 @@
         <div class="campo">
             <br>
             <label for=""><strong> Recomende uma série:</strong></label>
-            <textarea name="Recomende" id="Recomende" cols="30" rows="10"></textarea>
+            <textarea name="Recomende" id="Recomende" cols="25" rows="10"></textarea>
         </div>
 
-        <button class="botao" type="submit">Concluído</button>
+        <button class="botao"  type="submit">Concluído</button>
 
     </form>
 </body>
